@@ -1,6 +1,9 @@
 name: Nighty Build
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 0 * * *"
 
