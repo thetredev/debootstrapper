@@ -12,7 +12,7 @@ jobs:
   build:
     strategy:
       matrix:
-        image: [debootstrapper]
+        image: [debootstrapper, archer]
         arch: [amd64]
     runs-on: ubuntu-latest
     permissions:
