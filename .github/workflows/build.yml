@@ -1,8 +1,8 @@
-name: Build container images each Sunday
+name: Nighty Build
 
 on:
   schedule:
-   - cron: "0 0 * * 0"
+    - cron: "0 0 * * *"
 
 env:
   DOCKER_BUILDKIT: 1
